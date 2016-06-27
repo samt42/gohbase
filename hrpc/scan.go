@@ -173,7 +173,7 @@ func (s *Scan) GetNumberOfRows() uint32 {
 }
 
 func (s *Scan) SetNumberOfRows(n uint32){
-	s.numberOfRows = NumberOfRows
+	s.numberOfRows = n
 }
 
 // Serialize converts this Scan into a serialized protobuf message ready
