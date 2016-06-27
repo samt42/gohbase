@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tsuna/gohbase"
-	"github.com/tsuna/gohbase/filter"
-	"github.com/tsuna/gohbase/hrpc"
+	"github.com/samt42/gohbase"
+	"github.com/samt42/gohbase/filter"
+	"github.com/samt42/gohbase/hrpc"
 	"golang.org/x/net/context"
 )
 

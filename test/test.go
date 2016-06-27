@@ -10,8 +10,8 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/tsuna/gohbase"
-	"github.com/tsuna/gohbase/hrpc"
+	"github.com/samt42/gohbase"
+	"github.com/samt42/gohbase/hrpc"
 	"golang.org/x/net/context"
 )
 
