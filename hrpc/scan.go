@@ -172,6 +172,11 @@ func (s *Scan) GetNumberOfRows() uint32 {
 	return s.numberOfRows
 }
 
+func (s *Scan) SetNumberOfRows(NumberOfRows uint32) *Scan {
+	s.numberOfRows = NumberOfRows
+	return s
+}
+
 // Serialize converts this Scan into a serialized protobuf message ready
 // to be sent to an HBase node.
 func (s *Scan) Serialize() ([]byte, error) {
